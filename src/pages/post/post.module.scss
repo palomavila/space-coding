@@ -1,1 +1,72 @@
-// TODO
+.container {
+  img {
+    width: 100%;
+    max-height: 25rem;
+  }
+}
+
+.main {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 3.6rem;
+    color: var(--gray-100);
+
+    margin-top: 1.5rem;
+  }
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-right: 1.5rem;
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+
+
+  span,
+  time {
+    color: var(--gray-400);
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+}
+
+.contentContainer {
+  margin-top: 4rem;
+
+  .content {
+    h1 {
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      line-height: 2rem;
+    }
+    
+    
+    p {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
