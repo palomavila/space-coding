@@ -1,15 +1,11 @@
-.container {
-  max-width: 1120px;
-  height: 105px;
-
-  margin: 0 auto;
-
+.header {
+  height: 6.5rem;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
 
   img {
-    width: 15rem;
-    height: 1.6rem;
+    width: 100%;
+    max-width: 15rem;
+    height: auto;
   }
 }
