@@ -1,1 +1,15 @@
-// TODO
+.container {
+  max-width: 1120px;
+  height: 105px;
+
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  img {
+    width: 15rem;
+    height: 1.6rem;
+  }
+}
